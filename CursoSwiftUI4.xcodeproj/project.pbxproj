@@ -14,6 +14,7 @@
 		01E07FD12854905200E570C3 /* CursoSwiftUI4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E07FD02854905200E570C3 /* CursoSwiftUI4Tests.swift */; };
 		01E07FDB2854905200E570C3 /* CursoSwiftUI4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E07FDA2854905200E570C3 /* CursoSwiftUI4UITests.swift */; };
 		01E07FDD2854905200E570C3 /* CursoSwiftUI4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E07FDC2854905200E570C3 /* CursoSwiftUI4UITestsLaunchTests.swift */; };
+		01E07FEA2854937500E570C3 /* SwiftUI4Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E07FE92854937500E570C3 /* SwiftUI4Charts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		01E07FD62854905200E570C3 /* CursoSwiftUI4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoSwiftUI4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E07FDA2854905200E570C3 /* CursoSwiftUI4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoSwiftUI4UITests.swift; sourceTree = "<group>"; };
 		01E07FDC2854905200E570C3 /* CursoSwiftUI4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoSwiftUI4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01E07FE92854937500E570C3 /* SwiftUI4Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4Charts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				01E07FC12854905000E570C3 /* ContentView.swift */,
 				01E07FC32854905200E570C3 /* Assets.xcassets */,
 				01E07FC52854905200E570C3 /* Preview Content */,
+				01E07FE92854937500E570C3 /* SwiftUI4Charts.swift */,
 			);
 			path = CursoSwiftUI4;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				01E07FC22854905000E570C3 /* ContentView.swift in Sources */,
 				01E07FC02854905000E570C3 /* CursoSwiftUI4App.swift in Sources */,
+				01E07FEA2854937500E570C3 /* SwiftUI4Charts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
