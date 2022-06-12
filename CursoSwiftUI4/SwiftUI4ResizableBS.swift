@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct SwiftUI4ResizableBS: View {
+    
+    @State private var showBottomSheet = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Mostrar Bottom Sheet"){
+                showBottomSheet.toggle()
+            }
+            .buttonStyle(.borderedProminent)
+            .sheet(isPresented: $showBottomSheet){
+                Text("Esto forma parte de la bottom sheet redimensionable.")
+                    .presentationDetents([.fraction(0.2), .medium, .large])
+                    .presentationDragIndicator(.hidden)
+            }
+            
+            
+            Spacer()
+        }
     }
 }
 
