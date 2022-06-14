@@ -12,6 +12,7 @@
 		01D5F24B28588BB100846F09 /* SwiftUI4ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5F24A28588BB100846F09 /* SwiftUI4ExpandableText.swift */; };
 		01D5F24D2858A0CB00846F09 /* SwiftUI4Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5F24C2858A0CB00846F09 /* SwiftUI4Navigation.swift */; };
 		01D5F24F2858C46700846F09 /* SwiftUI4ShareLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5F24E2858C46700846F09 /* SwiftUI4ShareLink.swift */; };
+		01D5F2512858D1B800846F09 /* SwiftUI4Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5F2502858D1B800846F09 /* SwiftUI4Table.swift */; };
 		01E07FC02854905000E570C3 /* CursoSwiftUI4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E07FBF2854905000E570C3 /* CursoSwiftUI4App.swift */; };
 		01E07FC22854905000E570C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E07FC12854905000E570C3 /* ContentView.swift */; };
 		01E07FC42854905200E570C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E07FC32854905200E570C3 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		01D5F24A28588BB100846F09 /* SwiftUI4ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4ExpandableText.swift; sourceTree = "<group>"; };
 		01D5F24C2858A0CB00846F09 /* SwiftUI4Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4Navigation.swift; sourceTree = "<group>"; };
 		01D5F24E2858C46700846F09 /* SwiftUI4ShareLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4ShareLink.swift; sourceTree = "<group>"; };
+		01D5F2502858D1B800846F09 /* SwiftUI4Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4Table.swift; sourceTree = "<group>"; };
 		01E07FBC2854905000E570C3 /* CursoSwiftUI4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoSwiftUI4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E07FBF2854905000E570C3 /* CursoSwiftUI4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoSwiftUI4App.swift; sourceTree = "<group>"; };
 		01E07FC12854905000E570C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				01D5F2482855E95300846F09 /* SwiftUI4MultiDatePicker.swift */,
 				01D5F24C2858A0CB00846F09 /* SwiftUI4Navigation.swift */,
 				01D5F24E2858C46700846F09 /* SwiftUI4ShareLink.swift */,
+				01D5F2502858D1B800846F09 /* SwiftUI4Table.swift */,
 			);
 			path = CursoSwiftUI4;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				01D5F24B28588BB100846F09 /* SwiftUI4ExpandableText.swift in Sources */,
 				01D5F24D2858A0CB00846F09 /* SwiftUI4Navigation.swift in Sources */,
 				01E07FC02854905000E570C3 /* CursoSwiftUI4App.swift in Sources */,
+				01D5F2512858D1B800846F09 /* SwiftUI4Table.swift in Sources */,
 				01E07FEA2854937500E570C3 /* SwiftUI4Charts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
