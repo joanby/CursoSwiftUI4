@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01243D6A2859EAAC00DF0525 /* SwiftUI4VTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01243D692859EAAC00DF0525 /* SwiftUI4VTF.swift */; };
+		01243D6C285A195600DF0525 /* SwiftUI4Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01243D6B285A195600DF0525 /* SwiftUI4Grid.swift */; };
+		01243D6E285A28C600DF0525 /* SwiftUI4Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01243D6D285A28C600DF0525 /* SwiftUI4Layout.swift */; };
+		01243D70285A317200DF0525 /* SwiftUI4LayoutDynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01243D6F285A317200DF0525 /* SwiftUI4LayoutDynamic.swift */; };
 		01D5F2472854B36400846F09 /* SwiftUI4ResizableBS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5F2462854B36400846F09 /* SwiftUI4ResizableBS.swift */; };
 		01D5F2492855E95300846F09 /* SwiftUI4MultiDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5F2482855E95300846F09 /* SwiftUI4MultiDatePicker.swift */; };
 		01D5F24B28588BB100846F09 /* SwiftUI4ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5F24A28588BB100846F09 /* SwiftUI4ExpandableText.swift */; };
@@ -42,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01243D692859EAAC00DF0525 /* SwiftUI4VTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4VTF.swift; sourceTree = "<group>"; };
+		01243D6B285A195600DF0525 /* SwiftUI4Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4Grid.swift; sourceTree = "<group>"; };
+		01243D6D285A28C600DF0525 /* SwiftUI4Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4Layout.swift; sourceTree = "<group>"; };
+		01243D6F285A317200DF0525 /* SwiftUI4LayoutDynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4LayoutDynamic.swift; sourceTree = "<group>"; };
 		01D5F2462854B36400846F09 /* SwiftUI4ResizableBS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4ResizableBS.swift; sourceTree = "<group>"; };
 		01D5F2482855E95300846F09 /* SwiftUI4MultiDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4MultiDatePicker.swift; sourceTree = "<group>"; };
 		01D5F24A28588BB100846F09 /* SwiftUI4ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI4ExpandableText.swift; sourceTree = "<group>"; };
@@ -122,6 +130,10 @@
 				01D5F24E2858C46700846F09 /* SwiftUI4ShareLink.swift */,
 				01D5F2502858D1B800846F09 /* SwiftUI4Table.swift */,
 				01D5F2522859CECA00846F09 /* SwiftUI4Gauge.swift */,
+				01243D692859EAAC00DF0525 /* SwiftUI4VTF.swift */,
+				01243D6B285A195600DF0525 /* SwiftUI4Grid.swift */,
+				01243D6D285A28C600DF0525 /* SwiftUI4Layout.swift */,
+				01243D6F285A317200DF0525 /* SwiftUI4LayoutDynamic.swift */,
 			);
 			path = CursoSwiftUI4;
 			sourceTree = "<group>";
@@ -283,10 +295,14 @@
 			files = (
 				01D5F2532859CECA00846F09 /* SwiftUI4Gauge.swift in Sources */,
 				01E07FC22854905000E570C3 /* ContentView.swift in Sources */,
+				01243D6C285A195600DF0525 /* SwiftUI4Grid.swift in Sources */,
 				01D5F2492855E95300846F09 /* SwiftUI4MultiDatePicker.swift in Sources */,
+				01243D70285A317200DF0525 /* SwiftUI4LayoutDynamic.swift in Sources */,
 				01D5F24F2858C46700846F09 /* SwiftUI4ShareLink.swift in Sources */,
+				01243D6E285A28C600DF0525 /* SwiftUI4Layout.swift in Sources */,
 				01D5F2472854B36400846F09 /* SwiftUI4ResizableBS.swift in Sources */,
 				01D5F24B28588BB100846F09 /* SwiftUI4ExpandableText.swift in Sources */,
+				01243D6A2859EAAC00DF0525 /* SwiftUI4VTF.swift in Sources */,
 				01D5F24D2858A0CB00846F09 /* SwiftUI4Navigation.swift in Sources */,
 				01E07FC02854905000E570C3 /* CursoSwiftUI4App.swift in Sources */,
 				01D5F2512858D1B800846F09 /* SwiftUI4Table.swift in Sources */,
