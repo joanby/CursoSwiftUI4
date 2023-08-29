@@ -15,9 +15,12 @@ struct SwiftUI4Layout: View {
     
     var body: some View {
         
+        //  MODIFICACIÓN:
+        // HStack y VStack han cambiado ahora por
+        // _HStackLayout y _VStackLayout
         let layout = changeLayout ?
-        AnyLayout(HStack(spacing: 10)) :
-        AnyLayout(VStack(spacing: 10))
+        AnyLayout(_HStackLayout(spacing: 10)) :
+        AnyLayout(_VStackLayout(spacing: 10))
         
         
         layout{

@@ -16,8 +16,8 @@ struct SwiftUI4LayoutDynamic: View {
     var body: some View {
         
         let layout = (horizontalSizeClass == .compact) ?
-        AnyLayout(HStack(spacing: 10)) :
-        AnyLayout(VStack(spacing: 10))
+        AnyLayout(_HStackLayout(spacing: 10)) :
+        AnyLayout(_VStackLayout(spacing: 10))
         
        
         layout{
